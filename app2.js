@@ -44,7 +44,7 @@ async function main() {
    while (true) {
       const response = await groq.chat.completions.create({
          model: "llama-3.3-70b-versatile",
-         messages:messages,
+         messages: messages,
          temperature: 0,
          tools: [
             {
@@ -93,6 +93,3 @@ async function main() {
 }
 
 main();
-
-
-git quickgit quickgit quickgit quickgit quickgit quickgit quickgit quickgit quickgit quick
