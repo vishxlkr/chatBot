@@ -24,10 +24,6 @@ export async function main() {
             current date and time : ${new Date().toUTCString()}
             `,
       },
-      // {
-      //    role: "user",
-      //    content: `when was iphone 12 launched?`,
-      // },
    ];
 
    while (true) {
