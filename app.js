@@ -122,6 +122,7 @@ export async function main() {
 
 async function webSearch({ query }) {
    // Herer we will do tavily api call
+
    console.log("Calling webSearch...");
 
    const response = await tvly.search(query);
