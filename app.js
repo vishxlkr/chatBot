@@ -20,7 +20,7 @@ export async function main() {
          role: "system",
          content: `You are a smart personal assistant who answer the asked question. 
             You have access to following tools.
-            1. webSearch({query} : {query: string}) // search the latest information and realtime data on the internet.
+            If the question requires latest or realtime information from the internet, use the available tools.
             current date and time : ${new Date().toUTCString()}
             `,
       },
